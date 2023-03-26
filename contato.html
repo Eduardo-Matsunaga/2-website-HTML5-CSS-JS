@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Escola de inglês</title>
+</head>
+<body>
+        <!--Configurando header-->
+    <header id="cab">
+            <img src="logo.png">
+            <div id="social">
+                        <img src="facebook.png">
+                        <img src="instagram.jpeg">
+            </div>
+            <nav id="menu">
+                    <ul>
+                            <li> <a href="index.html" target ="_self">home</a></li>
+                            <li> <a href="modulos.html" target ="_self">Módulos</a></li>
+                            <li> <a href="contato.html" target ="_self">Contato</a></li>
+                    </ul>
+            </nav>
+    </header>
+    <!--classe fix para limpar o float-->
+    <br class="fix">
+
+    <section id="contato">
+        
+        <form name="fcontato" method="post" action="contato.html">
+                <label>Nome</label><br>
+                <input type="text" name="fnome" maxlength="50" size="60" autofocus required><br><br>
+
+                <label> Telefone de Contato</label><br>
+                <input type="tel" name="ffone " maxlength="15" size="20" placeholder="(xx) xxxxx-xxxx"  required ><br><br>
+
+                <label>Email para Contato</label><br>
+                <input type="email" name="femail"  maxlength="50" size="60"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"   required><br><br>
+
+                <label>Cep</label><br>
+                <input type="text" name="fcep" maxlegth="10" size="15" placeholder="xxxxx-xxx" pattern="[0-9]+$" required><br><br>
+
+                <label>Data de Nascimento</label><br>
+                <input type="date" name="fNascimento" required><br><br>
+
+                <label>Módulo que pretende iniciar (sujeito a teste de conhecimento)</label><br>
+                <input type="number" min="1" max="10" step="1" value="1" name="fModulo"><br><br>
+
+                <label>Horário de início</label><br>
+                <input type="time" name="fHorario" step="1800" value="10:00"><br><br>
+
+                <label>Cor da pasta - Ao matricular você ganha uma pasta para guardar seu material</label><br>
+                <input type="color" name="fCor" value="#0000"><br><br>
+
+                <input type="submit" value="Enviar" class="botao">
+                <input type="reset" value="Limpar"class="botao">
+        </form>
+    </section>
+    <br class="fix">
+
+    <footer id="fot">
+        <p>Layout Curso de Inglês </p>
+        <p>Curso Unova Professor Bruno</p>
+        <p>Eduardo Borges Matsunaga</p>
+    </footer>
+</body>
+</html>

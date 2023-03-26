@@ -1,0 +1,242 @@
+/* Configurando header index.html */
+
+#menu {
+    background-color: #f13a50;
+    overflow: hidden;
+    float:left;
+    margin-top:80px;
+    margin-left:85px;
+    width: 571,1px;
+      }
+  
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+         }
+  
+#menu li {
+   
+    border: 1px  solid #000000;
+    margin-right: 10px;
+    padding: 5px 5px;
+    width:150px;
+    height: 57px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+
+        }
+  
+#menu li a {
+    color: white;
+    display: block;
+    font-size: 18px;
+    line-height: 50px;
+    padding: 0 20px;
+    text-decoration: none;
+            }
+  
+#menu li a:hover {
+    background-color: #6394df;
+                 }
+
+body{
+    margin: 0 auto;
+    width: 960px;
+    background-color: #DDD;
+    padding: 0px;
+    background: url(azul.png) repeat-x;
+
+    }
+
+#cab img{
+      float: left;
+      width: 5cm;
+      height: 4cm;
+        }
+
+#social{
+      float:right;
+      margin-top: 80px;
+        }
+
+#social img{
+      width: 32px;
+      height: 32px;
+            }
+
+    /* Criando fix para usar o clear index.html */
+.fix{
+      clear:both;
+    }
+
+    /* Configurando section cxlateral index.html */
+#lateral {
+      float:right;
+      background-color: #ed6775;
+      width:250px;
+      border-radius:10px;
+      padding: 10px;
+          }
+#lateral h1{
+
+      font-size: 20pt;
+      text-align: center;
+      border-bottom: 1px solid #000;
+      margin-top:5px;
+            }
+
+#lateral h2{
+      font-size:15pt;
+            }
+
+#lateral p{
+      text-align: center;
+          }
+          
+    /* Configurando section Main index.html */
+#main{
+      background: #a6b4ca;
+      width:660px;
+      border-radius: 10px;
+      padding:5px;
+      }
+
+#main h1{
+      font-size:20pt;
+      border-bottom:1px dotted #000;
+        }
+
+#main h2{
+      font-size: 15pt;
+        }
+    
+#main p{
+      text-align: justify;
+        }
+
+    /* Configurando footer index.html */
+
+#fot{
+      color: black;
+      border:1px solid rgb(0, 0, 0);
+      margin-top: 15px;
+      
+    }
+
+#fot p{
+      display:inline-block;
+      text-align: center;
+      width: 8cm;
+
+      }
+
+    /* Configurando section banner index.html*/
+
+#slider{
+      width:960px;
+      height:384px;
+      margin-top:15px;
+      margin-bottom:10px;
+        }
+
+#slider img{
+      width:960px;
+      height:384px;
+            }
+          
+#b1{
+      position:relative;
+      left: 0px;
+      top: 0px;
+}
+
+#b2{
+  position: relative;
+  left:0px;
+  top: -388px;
+ }
+
+ #b3{
+  position: relative;
+  left:0px;
+  top: -776px;
+ }
+
+
+ /* Configurando section contato contato.html*/
+
+ #contato{
+      border-radius:10px;
+      padding: 20px;
+      margin-top: 15px;
+      background-color:#d8d8d8;
+      
+ }
+
+ #contato label{
+            
+      font-size:13pt;
+      font-weight:bold;
+      font-style:italic;
+      font-family:Arial;
+      color: #6a5bec;
+ }
+
+#contato input{
+      font-size:13pt;
+      color:#000;
+}
+
+.botao{
+      width:200px; 
+      height:40px;
+      border-radius:20px; 
+      background-color:#669999; 
+      border:1px solid rgb(63, 66, 230);
+      
+      }
+
+.botao:hover{
+      background-color: #6394df;
+      cursor:pointer;
+            }
+
+/* Configurando modulos.html */
+
+details summary::-webkit-details-marker {
+      display: none;
+      }
+
+      details{
+      margin-top:30px;
+      }
+
+      summary{
+      height: 40px;
+      border-radius:10px;
+      padding: 15px 0px 0px 10px;
+      font: 15pt Arial;
+      font-weight:bold;
+      background: linear-gradient(to bottom, #EEE, #606ee7);
+      }
+
+      details p{
+      font-size: 20px;
+      }
+
+      summary:before{
+      margin-right:5px;
+      content:"+";
+      }
+
+      details[open] summary:before {
+      content: "-";
+      }
+
+
+ 
+      
+ 
